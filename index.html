@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find A Number</title>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <h1 class="header">GUESS A NUMBER GAME</h1>
+        <p class="header-p">(Enter a number between 1-100)</p>
+      </div>
+      <div>
+        <input type="number" name="guess-input" class="guess-input" min="1" max="100"><button class="btn">GUESS!</button>  
+        
+      </div>
+      <div>
+        <p class="btn-content">Make a guess!</p>
+      </div>
+      <div>
+          <p class="remain">Remaining guess: <span class="remainCount">10</span></p>
+      </div>
+      <div class="footer"><button class="footer-btn">Play Again</button></div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
